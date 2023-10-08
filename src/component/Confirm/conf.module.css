@@ -1,0 +1,50 @@
+.circleBase {
+  border-radius: 50%;
+}
+
+.circle1 {
+  width: 30px;
+  height: 30px;
+  background: #dff1e6;
+  border: 1px solid #000;
+  border-radius: 50%;
+  font-size: 16px;
+}
+
+.circle2 {
+  width: 150px;
+  height: 150px;
+  background: lightgray;
+  border: 1px solid #000;
+}
+
+.modal{
+  display: flex;
+  flex-flow: column;
+ width: 300px;
+ height: 100px;
+ background-color: white;
+
+ position: absolute;
+ left:0;
+ right:0;
+ top:0;
+ bottom: 0;
+ margin:auto;
+ z-index: 9999;
+
+}
+
+.ctext{
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.cbutton{
+  flex: auto;
+display: flex;
+justify-content: flex-end;
+
+}
